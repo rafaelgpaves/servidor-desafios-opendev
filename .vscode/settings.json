@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "lesson03",
+            "database": "${workspaceFolder:lesson03}/src/quiz.db"
+        }
+    ]
+}
