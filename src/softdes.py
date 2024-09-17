@@ -12,7 +12,7 @@ import sqlite3
 import json
 import hashlib
 
-DBNAME = './quiz.db'
+DBNAME = './src/quiz.db'
 
 def lambda_handler(event, context):
     try:
